@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: octopus-underwater-app
-          image: <Your AWS ECR URL>/underwater:latest
+          image: 319731978722.dkr.ecr.me-south-1.amazonaws.com/test-eks:latest
           ports:
             - containerPort: 80
               protocol: TCP
